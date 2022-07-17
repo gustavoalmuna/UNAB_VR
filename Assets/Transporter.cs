@@ -20,7 +20,7 @@ public class Transporter : MonoBehaviour
 
     public void ComebackToMap()
     {
-        SceneManager.LoadScene("ModularUNAB");
+        SceneManager.LoadScene(0);
     }
 
     public void ToEducation()

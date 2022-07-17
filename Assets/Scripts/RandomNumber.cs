@@ -26,7 +26,7 @@ public class RandomNumber : MonoBehaviour
     #endregion
 
     #region Conteo Script:
-    public ElementCount box;
+    public CountDownTime timer;
     #endregion
 
     [Space]
@@ -47,6 +47,7 @@ public class RandomNumber : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        timer.IniGame = true;
         #region Paneles Winner y Looser desactivados:
         winnerPanel.gameObject.SetActive(false);
         looserPanel.gameObject.SetActive(false);
@@ -78,9 +79,9 @@ public class RandomNumber : MonoBehaviour
         #endregion
 
         #region Seteamos en la UI el conteo de elementos:
-        textCount.text = box.countNumber.ToString();
+        //textCount.text = box.countNumber.ToString();
         #endregion
-
+        /*
         #region Comprobamos si los elementos son iguales al numero random:
         if (number == box.countNumber && number != 0)
         {
@@ -102,7 +103,7 @@ public class RandomNumber : MonoBehaviour
             }
         }
         #endregion
-
+        */
         #region Mostrar Tiempo en pantalla:
 
         if (Game.gameObject.activeSelf)

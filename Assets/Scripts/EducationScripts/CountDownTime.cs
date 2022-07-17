@@ -17,9 +17,16 @@ public class CountDownTime : MonoBehaviour
 
     public Image black;
 
-    private void Start()
+    public bool IniGame = false;
+
+    public RandomBox rb;
+    public Canvas winnerPanel;
+    public Canvas looserPanel;
+    public void StartGame()
     {
-        
+        IniGame = true;
+        winnerPanel.gameObject.SetActive(false);
+        looserPanel.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -27,14 +34,27 @@ public class CountDownTime : MonoBehaviour
     {
         #region Mostrar Tiempo en pantalla:
 
-        timeLapse -= Time.deltaTime;
-        TimerUpdate();
-
-        if (timeLapse <= 0)
+        if (IniGame)
         {
-            timeLapse = 0;
-            black.GetComponent<Animator>().SetBool("black", true);
-            StartCoroutine(SceneIndex());
+            timeLapse -= Time.deltaTime;
+            TimerUpdate();
+
+            if (timeLapse <= 0)
+            {
+                IniGame = false;
+                timeLapse = 0;
+                black.GetComponent<Animator>().SetBool("black", true);
+                //StartCoroutine(SceneIndex());
+
+                if(rb.scorePoints > 0)
+                {
+                    winnerPanel.gameObject.SetActive(true);
+                }
+                else if(rb.scorePoints == 0)
+                {
+                    looserPanel.gameObject.SetActive(true);
+                }
+            }
         }
 
         //timeTxt.text = timeLapse.ToString("f0");

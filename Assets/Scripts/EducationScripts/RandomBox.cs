@@ -33,19 +33,21 @@ public class RandomBox : MonoBehaviour
     public int idBall;
     public int idBox;
 
+    public CountDownTime cdt;
+
     
 
     // Start is called before the first frame update
     void Start()
     {
-        if (instanceBox == null)
+        if (instanceBox == null && cdt.timeLapse > 0)
         {
             rn = (int)Random.Range(0f, 4f);
             BoxRandom(rn);
             Debug.Log("RandomNumber: " + rn);
         }
 
-        if (instanceBall == null)
+        if (instanceBall == null && cdt.timeLapse > 0)
         {
             rn2 = (int)Random.Range(0f, 4f);
             BallRandom(rn2);

@@ -18,24 +18,15 @@ public class TriggerBtn : MonoBehaviour
         #endregion
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     {
-        #region si el puntero de la camara toca los botones de las UI, la proxima se activa y anterior se desactiva:
-        if (other.CompareTag("PlayerPoint"))
+
+        if (nextUI != null || prevUI != null)
         {
-            if(nextUI != null || prevUI != null)
-            {
-                nextUI.SetActive(true);
-                prevUI.SetActive(false);
-            }
+            nextUI.SetActive(true);
+            prevUI.SetActive(false);
         }
-        #endregion
+
     }
 
     public void NextGUI()
