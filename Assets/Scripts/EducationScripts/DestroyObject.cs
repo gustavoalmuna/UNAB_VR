@@ -62,7 +62,7 @@ public class DestroyObject : MonoBehaviour
         yield return new WaitForSeconds(d);
         instExp = Instantiate(explodeParticles, transform.position, transform.rotation);
         gameObject.GetComponent<MeshRenderer>().enabled = false;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(2f);
         Destroy(instExp);
         Destroy(gameObject);
     }

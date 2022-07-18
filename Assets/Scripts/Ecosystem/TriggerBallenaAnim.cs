@@ -57,7 +57,7 @@ public class TriggerBallenaAnim : MonoBehaviour
         {
             
             Debug.Log("Salir escenario...");
-            SceneManager.LoadScene("ModularUNAB");
+            SceneManager.LoadScene(0);
         }
     }
 
@@ -75,7 +75,7 @@ public class TriggerBallenaAnim : MonoBehaviour
         if (count <= 0)
         {
             count = 0;
-            SceneManager.LoadScene("ModularUNAB");
+            SceneManager.LoadScene(0);
         }
 
         conteo = (int)count;
