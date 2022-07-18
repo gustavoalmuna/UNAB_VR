@@ -10,7 +10,6 @@ public class cambiarNombre : MonoBehaviour
     public void Cambiar()
     {
         sceneChangue.nombreEscena = nombre;
- 
     }
     
 }

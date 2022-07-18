@@ -8,10 +8,12 @@ public class SceneChangue : MonoBehaviour
     //pedimos el nombre de escena
     public string nombreEscena;
     
-    public void Cambiar()
+
+    private void OnTriggerEnter(Collider other)
     {
-        //cambiamos la escena
-        SceneManager.LoadScene(nombreEscena);        
-        
+        if (other)
+        {
+            SceneManager.LoadScene(nombreEscena);
+        }
     }
 }
