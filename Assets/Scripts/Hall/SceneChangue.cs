@@ -5,24 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangue : MonoBehaviour
 {
-    //creamos un string con el nombre de la escena que queremos cambiar
+    //pedimos el nombre de escena
     public string nombreEscena;
-    //creamos unas objeto
-    public GameObject particula;
     
 
-    //metodo para cambiar de escena
-    public void particulas()
+    private void OnTriggerEnter(Collider other)
     {
-        //activamos la particula
-        particula.SetActive(true);
-        //cambiamos la escena despues de 3 segundos
-        Invoke("Cambiar", 2);
-    }
-
-    //metodo para cambiar de escena
-    public void Cambiar()
-    {
-        SceneManager.LoadScene(nombreEscena);
+        if (other)
+        {
+            SceneManager.LoadScene(nombreEscena);
+        }
     }
 }

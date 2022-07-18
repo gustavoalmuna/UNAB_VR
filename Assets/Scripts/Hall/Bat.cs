@@ -30,22 +30,5 @@ public class Bat : MonoBehaviour
         
     }
 
-    //si collider con el tag Player entra en el trigger entonces activamos las animaciones
-    //private void OnTriggerEnter(Collider collider)
-    //{
-    //    if (collider.tag == "Player")
-    //    {
-            
-
-    //    }
-    //}
-
-    //void Destruir()
-    //{
-    //    Destroy(stage);
-        
-    //}
-
-
 
 }
