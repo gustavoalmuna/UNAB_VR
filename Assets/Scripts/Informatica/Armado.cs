@@ -4,27 +4,26 @@ using UnityEngine;
 
 public class Armado : MonoBehaviour
 {
-    public Panel panel;
-    public TextosUNABOT textos;
 
     void Start()
     {
         
     }
 
+    //buscamos el nombre del tag
+    public string nombreTag;
     public GameObject Piezas;
     public GameObject Armados;
+
+    
 
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == gameObject.tag)
+        if (other.tag == nombreTag)
         {
             Armados.SetActive(true);
             Piezas.SetActive(false);
-            panel.Final();
-            textos.var_siguiente = textos.var_siguiente +1;
-            textos.Burbujas();
             Destroy(gameObject);
         }
     }
