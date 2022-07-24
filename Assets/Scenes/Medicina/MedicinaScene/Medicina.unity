@@ -990,13 +990,7 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300000, guid: bf1464f9a1ed95c4c980a26669caa7aa, type: 3}
   m_Bones: []
-  m_BlendShapeWeights:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
     m_Center: {x: 1.9530869, y: -7.4789734, z: -4.582653}
@@ -1228,7 +1222,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.000005844456, y: -0.0000049040796, z: -39.999992}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -40}
 --- !u!4 &456497613044739437
 Transform:
   m_ObjectHideFlags: 0
@@ -10864,26 +10858,13 @@ GameObject:
   - component: {fileID: 4931218026186101616}
   - component: {fileID: 4876933053502974323}
   - component: {fileID: 1305037033821853086}
-  - component: {fileID: 2193423313399114303}
   m_Layer: 0
-  m_Name: Palo
+  m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2193423313399114303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2193423313399114302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3bc14861828cd947bbf21ef35828ae9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2197650509459017454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11500,7 +11481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreMe: 0
-  matchTarget: {fileID: 455638383120247913}
+  matchTarget: {fileID: 0}
   placeNames: []
   placeRadius: 1
   forcePlace: 0
@@ -11520,19 +11501,7 @@ MonoBehaviour:
   showEvents: 1
   OnPlace:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2193423313399114303}
-        m_TargetAssemblyTypeName: KeepVibing, Assembly-CSharp
-        m_MethodName: AnimacionTrue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   OnRemove:
     m_PersistentCalls:
       m_Calls: []
