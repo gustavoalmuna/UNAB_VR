@@ -11,8 +11,5 @@ public class HeartScript : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        
-    }
+
 }

@@ -5,7 +5,7 @@ using UnityEngine.Animations;
 
 public class KeepVibing : MonoBehaviour
 {
-    public Animator a;
+    Animator a;
 
 
     private void Start()
