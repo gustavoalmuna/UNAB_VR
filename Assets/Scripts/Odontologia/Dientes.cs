@@ -4,35 +4,21 @@ using UnityEngine;
 
 public class Dientes : MonoBehaviour
 {
-    public GameObject[] dientesBuenos;
-    public GameObject[] dientesMalos;
-
-
-    void Start()
+     void Start()
     {
-        dientesMalos[0].SetActive(true);
-        dientesBuenos[0].SetActive(false);
         
     }
 
+    public GameObject diente;
     
-    //si diente malo sale del trigger, se desactiva y se activa el otro
-    void OnTriggerExit(Collider other)
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "boca")
+        if (other.tag == "Diente")
         {
-            dientesMalos[0].SetActive(false);
-            dientesBuenos[0].SetActive(true);
+            diente.SetActive(true);
+            //destruimos el objeto que colisiona con el tag Diente
+            Destroy(gameObject);
         }
     }
-
-
-      
-    
-
-    
-    
-
-    
-
 }
