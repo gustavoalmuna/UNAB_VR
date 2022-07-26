@@ -9,6 +9,7 @@ public class MoverAtril : MonoBehaviour
     public GameObject atril;
     public Derecho derecho;
     public GameObject game;
+    public bool audio = false;
 
 
 
@@ -25,6 +26,7 @@ public class MoverAtril : MonoBehaviour
             { 
                 animator.SetBool("caminar", false);
                 game.SetActive(true);
+                audio = true;
             }
         }
         
