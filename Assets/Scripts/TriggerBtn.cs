@@ -7,6 +7,7 @@ public class TriggerBtn : MonoBehaviour
     #region Variables UI, anterior y proxima:
     public GameObject nextUI;
     public GameObject prevUI;
+    public AudioSource audioSource;
     #endregion
 
     // Start is called before the first frame update
@@ -31,6 +32,8 @@ public class TriggerBtn : MonoBehaviour
 
     public void NextGUI()
     {
+        
+        
         if (nextUI != null || prevUI != null)
         {
             nextUI.SetActive(true);
