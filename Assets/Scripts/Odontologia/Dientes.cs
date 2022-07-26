@@ -10,6 +10,7 @@ public class Dientes : MonoBehaviour
     }
 
     public GameObject diente;
+    public GameObject DientesRomper;
     
 
     private void OnTriggerEnter(Collider other)
@@ -17,8 +18,8 @@ public class Dientes : MonoBehaviour
         if (other.tag == "Diente")
         {
             diente.SetActive(true);
-            //destruimos el objeto que colisiona con el tag Diente
-            Destroy(gameObject);
+            Destroy(DientesRomper);
+            
         }
     }
 }
