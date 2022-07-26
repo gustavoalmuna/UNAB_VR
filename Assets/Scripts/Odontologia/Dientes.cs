@@ -12,22 +12,23 @@ public class Dientes : MonoBehaviour
     {
         dientesMalos[0].SetActive(true);
         dientesBuenos[0].SetActive(false);
-
-        //si objeto con tag "herramienta" entra en el trigger de diente malo se activa el diente bueno y se desactiva el diente malo
-       
-
-        
         
     }
 
-    public void OnTriggerEnter(Collider other)
+    
+    //si diente malo sale del trigger, se desactiva y se activa el otro
+    void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Herramienta")
+        if (other.gameObject.tag == "boca")
         {
             dientesMalos[0].SetActive(false);
-            dientesBuenos[0].SetActive(true);         
+            dientesBuenos[0].SetActive(true);
         }
     }
+
+
+      
+    
 
     
     
