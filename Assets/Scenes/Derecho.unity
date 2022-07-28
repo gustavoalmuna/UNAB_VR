@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 918018}
   - component: {fileID: 918017}
   m_Layer: 0
-  m_Name: Bueno (6)
+  m_Name: historia3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,8 +148,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918015}
-  m_LocalRotation: {x: 0.04371846, y: -0.00069479615, z: 0.015875308, w: 0.9989175}
-  m_LocalPosition: {x: 12.445001, y: 13.672, z: -9.474}
+  m_LocalRotation: {x: 0.012437831, y: -0.0009922954, z: -0.00018094151, w: 0.99992216}
+  m_LocalPosition: {x: 12.445, y: 13.6707, z: -9.474}
   m_LocalScale: {x: 0.36081913, y: 0.36081913, z: 0.36081913}
   m_Children:
   - {fileID: 665353239}
@@ -158,7 +158,7 @@ Transform:
   - {fileID: 1149825660}
   m_Father: {fileID: 946391318}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 5.012, y: 0, z: 1.821}
+  m_LocalEulerAnglesHint: {x: 1.425, y: -0.114, z: -0.022}
 --- !u!135 &918017
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -945,6 +945,66 @@ MonoBehaviour:
       - m_Target: {fileID: 565644688}
         m_TargetAssemblyTypeName: audios, Assembly-CSharp
         m_MethodName: activar_audio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1874174512}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1950592830}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 422854344}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1831199436}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1803691441}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2035,7 +2095,7 @@ GameObject:
   - component: {fileID: 485187974}
   - component: {fileID: 485187973}
   m_Layer: 0
-  m_Name: Bueno (2)
+  m_Name: historia5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2048,7 +2108,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485187971}
-  m_LocalRotation: {x: 0.04371846, y: -0.00069479615, z: 0.015875308, w: 0.9989175}
+  m_LocalRotation: {x: 0.0058821705, y: -0.0012951144, z: 0.01583764, w: 0.9998565}
   m_LocalPosition: {x: 13.277, y: 13.666, z: -9.489}
   m_LocalScale: {x: 0.36081913, y: 0.36081913, z: 0.36081913}
   m_Children:
@@ -2058,7 +2118,7 @@ Transform:
   - {fileID: 278142586}
   m_Father: {fileID: 946391318}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 5.012, y: 0, z: 1.821}
+  m_LocalEulerAnglesHint: {x: 0.676, y: -0.138, z: 1.814}
 --- !u!135 &485187973
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2821,6 +2881,66 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1874174512}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 565644687}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1950592830}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 422854344}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1803691441}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
@@ -3269,6 +3389,66 @@ MonoBehaviour:
       - m_Target: {fileID: 1950592831}
         m_TargetAssemblyTypeName: audios, Assembly-CSharp
         m_MethodName: activar_audio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1874174512}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 565644687}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 422854344}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1831199436}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1803691441}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4722,7 +4902,7 @@ GameObject:
   - component: {fileID: 1060257507}
   - component: {fileID: 1060257506}
   m_Layer: 0
-  m_Name: Bueno (1)
+  m_Name: historia4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4735,8 +4915,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060257504}
-  m_LocalRotation: {x: 0.04371846, y: -0.00069479615, z: 0.015875308, w: 0.9989175}
-  m_LocalPosition: {x: 13.116, y: 13.661, z: -9.489}
+  m_LocalRotation: {x: 0.015576426, y: -0.001141493, z: 0.015849452, w: 0.9997524}
+  m_LocalPosition: {x: 13.1159, y: 13.6647, z: -9.4888}
   m_LocalScale: {x: 0.36081913, y: 0.36081913, z: 0.36081913}
   m_Children:
   - {fileID: 1245376834}
@@ -4745,7 +4925,7 @@ Transform:
   - {fileID: 768753201}
   m_Father: {fileID: 946391318}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 5.012, y: 0, z: 1.821}
+  m_LocalEulerAnglesHint: {x: 1.787, y: -0.103, z: 1.815}
 --- !u!135 &1060257506
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5777,6 +5957,66 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1874174512}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 565644687}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1950592830}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1831199436}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1803691441}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
@@ -6554,7 +6794,7 @@ GameObject:
   - component: {fileID: 1586855521}
   - component: {fileID: 1586855520}
   m_Layer: 0
-  m_Name: Bueno (4)
+  m_Name: Historia1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6567,8 +6807,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586855518}
-  m_LocalRotation: {x: 0.04371846, y: -0.00069479615, z: 0.015875308, w: 0.9989175}
-  m_LocalPosition: {x: 12.142, y: 13.662, z: -9.474}
+  m_LocalRotation: {x: -0.007073298, y: -0.0015002113, z: 0.01581953, w: 0.9998488}
+  m_LocalPosition: {x: 12.1418, y: 13.6681, z: -9.4741}
   m_LocalScale: {x: 0.36081913, y: 0.36081913, z: 0.36081913}
   m_Children:
   - {fileID: 2102069155}
@@ -6577,7 +6817,7 @@ Transform:
   - {fileID: 399981590}
   m_Father: {fileID: 946391318}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 5.012, y: 0, z: 1.821}
+  m_LocalEulerAnglesHint: {x: -0.808, y: -0.185, z: 1.814}
 --- !u!135 &1586855520
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6959,6 +7199,66 @@ MonoBehaviour:
       - m_Target: {fileID: 1803691442}
         m_TargetAssemblyTypeName: audios, Assembly-CSharp
         m_MethodName: activar_audio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1874174512}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 565644687}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1950592830}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 422854344}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1831199436}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8182,7 +8482,7 @@ GameObject:
   - component: {fileID: 1906771157}
   - component: {fileID: 1906771156}
   m_Layer: 0
-  m_Name: Bueno (3)
+  m_Name: historia6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8195,8 +8495,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906771154}
-  m_LocalRotation: {x: 0.04371846, y: -0.00069479615, z: 0.015875308, w: 0.9989175}
-  m_LocalPosition: {x: 13.456, y: 13.672, z: -9.487}
+  m_LocalRotation: {x: 0.01763268, y: -0.0011088912, z: 0.015851764, w: 0.99971825}
+  m_LocalPosition: {x: 13.4561, y: 13.6688, z: -9.4872}
   m_LocalScale: {x: 0.36081913, y: 0.36081913, z: 0.36081913}
   m_Children:
   - {fileID: 1654314707}
@@ -8205,7 +8505,7 @@ Transform:
   - {fileID: 678193382}
   m_Father: {fileID: 946391318}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 5.012, y: 0, z: 1.821}
+  m_LocalEulerAnglesHint: {x: 2.022, y: -0.095, z: 1.815}
 --- !u!135 &1906771156
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8349,7 +8649,7 @@ GameObject:
   - component: {fileID: 1913651875}
   - component: {fileID: 1913651874}
   m_Layer: 0
-  m_Name: Bueno (5)
+  m_Name: historia2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8362,7 +8662,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913651872}
-  m_LocalRotation: {x: 0.04371846, y: -0.00069479615, z: 0.015875308, w: 0.9989175}
+  m_LocalRotation: {x: 0.002516028, y: -0.0013160446, z: 0.0028099236, w: 0.999992}
   m_LocalPosition: {x: 12.279, y: 13.667, z: -9.474}
   m_LocalScale: {x: 0.36081913, y: 0.36081913, z: 0.36081913}
   m_Children:
@@ -8372,7 +8672,7 @@ Transform:
   - {fileID: 1604481259}
   m_Father: {fileID: 946391318}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 5.012, y: 0, z: 1.821}
+  m_LocalEulerAnglesHint: {x: 0.289, y: -0.15, z: 0.322}
 --- !u!135 &1913651874
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9829,6 +10129,66 @@ MonoBehaviour:
       - m_Target: {fileID: 1874174513}
         m_TargetAssemblyTypeName: audios, Assembly-CSharp
         m_MethodName: activar_audio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 565644687}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1950592830}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 422854344}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1831199436}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1803691441}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
