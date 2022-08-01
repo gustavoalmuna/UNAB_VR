@@ -821,7 +821,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.8
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -26091,8 +26091,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.02932511, z: 0.15}
-  m_Center: {x: 1.909792e-13, y: -0.07517676, z: 6.837039e-14}
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5116238324800523935
 GameObject:
   m_ObjectHideFlags: 0
@@ -31723,7 +31723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &6775198306862896931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40108,20 +40108,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407798777992021111}
   m_Mesh: {fileID: 2357405294639888121, guid: b8ce84d44501a844cabe9f08198381e7, type: 3}
---- !u!64 &8987834182293313824
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8987834182293313831}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3390558720134950976, guid: 17685b6ae54411040bbb7cd3b294409c, type: 3}
 --- !u!54 &8987834182293313825
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -40150,7 +40136,7 @@ GameObject:
   - component: {fileID: 1352132793485697929}
   - component: {fileID: 8972103024225662562}
   - component: {fileID: 8987834182293313825}
-  - component: {fileID: 8987834182293313824}
+  - component: {fileID: 8987834182293313832}
   m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
@@ -40158,6 +40144,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &8987834182293313832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8987834182293313831}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000003, y: 0.02000001, z: 0.0059488146}
+  m_Center: {x: -2.3528945e-10, y: -6.9814143e-10, z: 0.007025606}
 --- !u!33 &8988722862026889125
 MeshFilter:
   m_ObjectHideFlags: 0
