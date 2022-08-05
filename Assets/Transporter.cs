@@ -30,7 +30,7 @@ public class Transporter : MonoBehaviour
 
     public void ToInfo()
     {
-        SceneManager.LoadScene("Informática");
+        SceneManager.LoadScene("Informï¿½tica");
     }
 
     public void ToArch()
