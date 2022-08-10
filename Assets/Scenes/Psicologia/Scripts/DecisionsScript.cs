@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
+using UnityEngine.Animations;
 public class DecisionsScript : MonoBehaviour
 {
-     public Text casos;
-    GameObject cnv;
 
+    public Animator animator;
     private void Awake()
     {
         GlobalPsico.buena = 0;
@@ -15,16 +15,31 @@ public class DecisionsScript : MonoBehaviour
     }
     private void Start()
     {
-        cnv = GameObject.Find("CanvasWithDebug");
+
     
     }
 
-    public void nuevoEvento() {
-        cnv.SetActive(true);
-        
+
+
+    public void agregarBuena() { GlobalPsico.buena++;animator.SetTrigger("ButtonPressed");Invoke("blackToChoose", 5); }
+    public void agregarMala() { GlobalPsico.mala++; animator.SetTrigger("ButtonPressed"); Invoke("blackToChoose", 5); }
+
+
+    public void blackToChoose() {
+
+        if (GlobalPsico.buena == 1) {
+
+            animator.SetTrigger("isGood");
+            GlobalPsico.buena = 0;
+        }
+
     
+        else if (GlobalPsico.mala == 1){
+
+            animator.SetTrigger("isBad");
+            GlobalPsico.mala = 0;
+        }
+
     }
 
-    public void agregarBuena() { GlobalPsico.buena++;cnv.SetActive(false); }
-    public void agregarMala() { GlobalPsico.mala++; cnv.SetActive(false); }
 }
