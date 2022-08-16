@@ -1089,6 +1089,7 @@ GameObject:
   - component: {fileID: 6697483640674677670}
   - component: {fileID: 6591163875605484617}
   - component: {fileID: 6591163875605484616}
+  - component: {fileID: 4483377286575998976}
   m_Layer: 0
   m_Name: stripedBass_sketchfab_011
   m_TagString: Untagged
@@ -1142,6 +1143,68 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.16476473, y: 0.21902743, z: 0.4155532}
   m_Center: {x: -0.0015194509, y: 0.01866878, z: 0.020427518}
+--- !u!114 &4483377286575998976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6321344473164359964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 822bc9090447b9c40833509c4a32e597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreMe: 0
+  body: {fileID: 0}
+  hightlightMaterial: {fileID: 0}
+  isGrabbable: 1
+  CopySettings: {fileID: 0}
+  singleHandOnly: 0
+  allowHeldSwapping: 1
+  instantGrab: 0
+  ignoreWeight: 0
+  maintainGrabOffset: 0
+  parentOnGrab: 1
+  throwPower: 1
+  jointBreakForce: 3500
+  showAdvancedSettings: 0
+  handType: 0
+  grabType: 0
+  useGentleGrab: 0
+  makeChildrenGrabbable: 1
+  pullApartBreakOnly: 1
+  customGrabJoint: {fileID: 0}
+  ignoreReleaseTime: 0.5
+  grabPriorityWeight: 1
+  heldPositionOffset: {x: 0, y: 0, z: 0}
+  heldRotationOffset: {x: 0, y: 0, z: 0}
+  jointedBodies: []
+  heldIgnoreColliders: []
+  showEvents: 1
+  onGrab:
+    m_PersistentCalls:
+      m_Calls: []
+  onRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  showAdvancedEvents: 0
+  onSqueeze:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnsqueeze:
+    m_PersistentCalls:
+      m_Calls: []
+  onHighlight:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnhighlight:
+    m_PersistentCalls:
+      m_Calls: []
+  OnJointBreak:
+    m_PersistentCalls:
+      m_Calls: []
+  lockHandOnGrab: 0
 --- !u!1 &6331294936602694038
 GameObject:
   m_ObjectHideFlags: 0

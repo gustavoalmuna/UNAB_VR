@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject Ballena;
-    public GameObject[] Spawnpoints;
+    public GameObject[] peces;
 
-    //hacemos que la ballena camine aleatoriamente entre los spawnpoints
-    void Start()
+    public void Spawn()
     {
-        int random = Random.Range(0, Spawnpoints.Length);
-        Ballena.GetComponent<Rigidbody>().AddForce(Spawnpoints[random].transform.position * 10);
+        //spawnear un pez random en la posicion del spawner
+        Instantiate(peces[Random.Range(0, peces.Length)], transform.position, Quaternion.identity);
+        
     }
 
 
