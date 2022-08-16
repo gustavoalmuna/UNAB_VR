@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
     void Start()
     {
         int random = Random.Range(0, Spawnpoints.Length);
-        Ballena.GetComponent<Rigidbody>().AddForce(Spawnpoints[random].transform.position * 5);
+        Ballena.GetComponent<Rigidbody>().AddForce(Spawnpoints[random].transform.position * 10);
     }
 
 
