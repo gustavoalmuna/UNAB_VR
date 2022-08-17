@@ -776,7 +776,7 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 5409219951561376517, guid: 843dabee0342ee0498e8362209f87a8f, type: 2}
-    value: {fileID: 4608121919572951348}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1950877220
@@ -791,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7879c7a05f085724f9f8c6dfe7fe76f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 4608121919572951348}
+  animator: {fileID: 0}
 --- !u!1001 &1979014855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8211,7 +8211,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3798934530969443209}
-  - component: {fileID: 4608121919572951348}
   m_Layer: 0
   m_Name: MinaPacked
   m_TagString: Untagged
@@ -8219,25 +8218,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &4608121919572951348
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4608121919572951347}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 75a03f186b636254ab6b818967bea4ee, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4621135340103570324
 GameObject:
   m_ObjectHideFlags: 0
