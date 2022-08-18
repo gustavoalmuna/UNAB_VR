@@ -16,6 +16,7 @@ public class Interactable : MonoBehaviour
     public AudioSource audioSource;
     public GameObject fuego;
     public GameObject triptico;
+    public GameObject Cuadroo;
     
     
 
@@ -45,6 +46,8 @@ public class Interactable : MonoBehaviour
             //activamos el fuego
             fuego.SetActive(true);
             triptico.SetActive(true);
+            Cuadroo.SetActive(false);
+
             
 
         }

@@ -16,11 +16,16 @@ public class BotarBasura : MonoBehaviour
     //si un objeto entra en el collider del hoyo, se cambia el color del material del objeto a rojo
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
-        Hoyo.gameObject.GetComponent<Renderer>().material = Rojo;
-        sonido.Play();
-        Fuego.SetActive(true);
-        Invoke("basuraLista",4);     
+        //si el objeto que entra tiene el tag "Basura"
+        if (other.gameObject.tag == "Basura")
+        {
+            Destroy(other.gameObject);
+            Hoyo.gameObject.GetComponent<Renderer>().material = Rojo;
+            sonido.Play();
+            Fuego.SetActive(true);
+            Invoke("basuraLista",4);
+        }
+             
     }
 
     public void basuraLista()
