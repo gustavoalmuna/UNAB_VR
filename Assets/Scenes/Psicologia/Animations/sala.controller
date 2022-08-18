@@ -271,19 +271,19 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isBad
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ButtonPressed
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -449,7 +449,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: ButtonPressed
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2196271256132704326}
   m_Solo: 0
@@ -618,7 +621,7 @@ AnimatorStateMachine:
     m_Position: {x: 450, y: 70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3094783915199364409}
-    m_Position: {x: 1040, y: 360, z: 0}
+    m_Position: {x: 1000, y: 320, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4982038101382984008}
     m_Position: {x: 1260, y: 60, z: 0}
