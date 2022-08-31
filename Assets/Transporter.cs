@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Transporter : MonoBehaviour
 {
+    public string EscenaIr;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +47,10 @@ public class Transporter : MonoBehaviour
     public void ToDemo()
     {
         SceneManager.LoadScene("Demo");
+    }
+
+    public void toScene() {
+        SceneManager.LoadScene(EscenaIr);
     }
 
 }

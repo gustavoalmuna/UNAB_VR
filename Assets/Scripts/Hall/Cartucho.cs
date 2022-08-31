@@ -5,16 +5,11 @@ using UnityEngine;
 public class Cartucho : MonoBehaviour
 {
     public GameObject cartucho;
-    public GameObject Portal;
     
-    private void OnTriggerEnter(Collider other)
+    //instanciar cartucho
+    public void InstanciarCartucho()
     {
-        if (other.tag == "Cartucho")
-        {
-            Destroy(other.gameObject);            
-            cartucho.SetActive(true);
-            Portal.SetActive(true);            
-        }
+        Instantiate(cartucho, transform.position, Quaternion.identity);
     }
 
 }
