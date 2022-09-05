@@ -11,9 +11,16 @@ public class BarraVida : MonoBehaviour
 
     public float vidaMaxima;
 
+    public GameObject Final;
+
     // Update is called once per frame
     void Update()
     {
-        BarraDeVida.fillAmount = vidaActual / vidaMaxima;        
+        BarraDeVida.fillAmount = vidaActual / vidaMaxima;
+
+        if (vidaActual >= vidaMaxima)
+        {
+            Final.SetActive(true);
+        }        
     }
 }

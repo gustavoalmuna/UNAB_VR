@@ -36,7 +36,6 @@ public class BotarBasura : MonoBehaviour
         sonidoListo.Play();
         //instanciar el cubo de basura en SpawnBasura
         Instantiate(CuboBasura, SpawnBasura.position, SpawnBasura.rotation);                       
-
     }
 
 
