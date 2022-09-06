@@ -13,6 +13,7 @@ public class basuraBotada : MonoBehaviour
         barraVida.vidaActual += 9;
         //activamos una planta aleatoria
         plantas[Random.Range(0, plantas.Length)].SetActive(true);
+        Destroy(other.gameObject);
     }
     
 
