@@ -6,8 +6,9 @@ public class Picar : MonoBehaviour
 {
     public GameObject Roca;
     public int vidas = 30;
-    public GameObject amatista;
     public AudioSource sonido;
+    //hacemos una lista de minerales
+    public GameObject[] minerales;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,9 +16,11 @@ public class Picar : MonoBehaviour
         sonido.Play();
         if (vidas == 0)
         {
+            Instantiate(minerales[Random.Range(0, minerales.Length)], Roca.transform.position, Quaternion.identity);
             Destroy(Roca);
-            //activamos la gravedad a la amatista
-            amatista.GetComponent<Rigidbody>().useGravity = true;
+            //instanciar un mineral aleatorio en la posicion de la roca
+            
+            
             
 
         }

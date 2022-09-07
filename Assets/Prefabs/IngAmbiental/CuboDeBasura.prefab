@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1491009070105741474}
   - component: {fileID: 244251180648930094}
   - component: {fileID: 3378545664211602210}
+  - component: {fileID: -6669587658138263625}
   m_Layer: 0
   m_Name: CuboDeBasura
   m_TagString: Untagged
@@ -175,3 +176,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   lockHandOnGrab: 0
+--- !u!114 &-6669587658138263625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491009070105741473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a73ed319cdd9a4da954f979a902744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materiales:
+  - {fileID: 2100000, guid: ddd1990f8f0b7fb4eb489328cb52259c, type: 2}
+  - {fileID: 2100000, guid: 2e107597866cc134eb84fd76e7346b50, type: 2}
+  - {fileID: 2100000, guid: cebe44223d66f8144919f8186214591b, type: 2}
+  - {fileID: 2100000, guid: 4d9f32b5cf87cec4582de4fd877b3ec8, type: 2}
