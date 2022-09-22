@@ -9,10 +9,7 @@ public class MovertelescopioY : MonoBehaviour
     //si entra en el collider con el tag "Mover" vamos rotando el telescopio hasta que salga del collider
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "palanca")
-        {
-            telescopio.transform.Rotate(0, -1, 0);
-        }
+        telescopio.transform.Rotate(0, -1, 0);
     }
 
     //si sale del collider con el tag "Mover" dejamos de rotar el telescopio
