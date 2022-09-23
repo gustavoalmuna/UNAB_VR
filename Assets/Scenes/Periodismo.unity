@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.20416334, g: 0.27584743, b: 0.29498944, a: 1}
+  m_IndirectSpecularColor: {r: 0.20441818, g: 0.27670074, b: 0.29539937, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -19271,6 +19271,7 @@ GameObject:
   - component: {fileID: 473824437588992561}
   - component: {fileID: 7310529996797648779}
   - component: {fileID: 5820221172424397306}
+  - component: {fileID: 3698847425043959502}
   m_Layer: 0
   m_Name: Plane.013
   m_TagString: Untagged
@@ -19278,6 +19279,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &3698847425043959502
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3698847425043959501}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10302051, y: 0.13084826, z: 0}
+  m_Center: {x: 0, y: -0.0015326401, z: 0}
 --- !u!33 &3699595259808447172
 MeshFilter:
   m_ObjectHideFlags: 0
